@@ -1,0 +1,38 @@
+#search-container {
+   height: fit-content;
+   background-color: #f1b24a;
+   margin: 2%;
+   border-radius: 100px;
+   text-align: center;
+}
+
+input[type='text'] {
+   width: 15%;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+
+   border: none;
+   background-color: #9dc88d;
+   text-align: center;
+   color: white;
+   font-size: 1.5vw;
+   padding: 1vw;
+   outline: none;
+}
+
+::placeholder {
+   color: white;
+   font-size: 65%;
+   font-weight: 0;
+   text-align: center;
+   font-style: italic;
+}
+
+:focus::placeholder {
+   color: transparent;
+}
+
+input[type='text']:focus {
+   width: 90%;
+   background-color: #9dc88d;
+}
